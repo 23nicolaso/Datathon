@@ -25,7 +25,7 @@ This toolkit comprises a set of Python scripts designed to facilitate the analys
   - `estimate_completion_quarters(size_sf, classification)`: Estimates the number of quarters required for completion.
   - `load_and_classify_properties(csv_path)`: Loads property data from a CSV file and estimates completion times.
 
-### 3. `datdownload.py`
+### 3. `dataClassification.py`
 
 - **Purpose**: Manages data importation, satellite imagery download, and preliminary setup for image classification.
 - **Key Functions**:
@@ -43,7 +43,7 @@ git clone https://github.com/23nicolaso/Datathon.git
 pip install -r requirements.txt
 
 3. **Download satellite images and classify**:
-python datdownload.py
+python dataClassification.py
 
 4. **Train the model**:
 - python training.py 
