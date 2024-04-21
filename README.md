@@ -46,13 +46,12 @@ pip install -r requirements.txt
 python datdownload.py
 
 4. **Train the model**:
-- use python dataClassification.py
+- python dataClassification.py or python training.py 
 - or use our pretrained model:
 https://drive.google.com/file/d/10DPN6k1sAbjsJBzoIhnBdNbivHt5cZne/view?usp=sharing 
 
 6. **Estimate project completion**:
-python estimateProduction.py
-
+python estimation.py
 
 ## Contributing
 
