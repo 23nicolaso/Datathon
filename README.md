@@ -42,9 +42,8 @@ git clone https://github.com/23nicolaso/Datathon.git
 2. **Install required libraries**:
 pip install -r requirements.txt
 
-3. **Prepare your dataset**:
-   - Place your training images in the `downloaded_images` directory.
-   - Ensure your CSV files are formatted correctly and placed in the project root.
+3. **Download satellite images and classify**:
+python datdownload.py
 
 4. **Train the model**:
 - use python dataClassification.py
@@ -53,9 +52,6 @@ https://drive.google.com/file/d/10DPN6k1sAbjsJBzoIhnBdNbivHt5cZne/view?usp=shari
 
 6. **Estimate project completion**:
 python estimateProduction.py
-
-7. **Download satellite images and classify**:
-python datdownload.py
 
 
 ## Contributing
