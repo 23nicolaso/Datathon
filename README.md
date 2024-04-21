@@ -11,14 +11,14 @@ This toolkit comprises a set of Python scripts designed to facilitate the analys
 
 ## Scripts Overview
 
-### 1. `dataClassification.py`
+### 1. `training.py`
 
 - **Purpose**: Trains a CNN model for the classification of construction site images and predicts the construction phase of given images.
 - **Key Functions**:
   - `train_model()`: Trains the CNN model using images stored in a specified directory.
   - `predict_image_classification(image_path, model_path)`: Predicts the construction phase of an image.
 
-### 2. `estimateProduction.py`
+### 2. `estimation.py`
 
 - **Purpose**: Estimates the completion time of construction projects based on their size and classification.
 - **Key Functions**:
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 python datdownload.py
 
 4. **Train the model**:
-- python dataClassification.py or python training.py 
+- python training.py 
 - or use our pretrained model:
 https://drive.google.com/file/d/10DPN6k1sAbjsJBzoIhnBdNbivHt5cZne/view?usp=sharing 
 
