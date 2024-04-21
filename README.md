@@ -47,8 +47,8 @@ pip install -r requirements.txt
    - Ensure your CSV files are formatted correctly and placed in the project root.
 
 4. **Train the model**:
-python dataClassification.py
-or use our pretrained model:
+- use python dataClassification.py
+- or use our pretrained model:
 https://drive.google.com/file/d/10DPN6k1sAbjsJBzoIhnBdNbivHt5cZne/view?usp=sharing 
 
 6. **Estimate project completion**:
