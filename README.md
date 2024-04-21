@@ -48,11 +48,13 @@ pip install -r requirements.txt
 
 4. **Train the model**:
 python dataClassification.py
+or use our pretrained model:
+https://drive.google.com/file/d/10DPN6k1sAbjsJBzoIhnBdNbivHt5cZne/view?usp=sharing 
 
-5. **Estimate project completion**:
+6. **Estimate project completion**:
 python estimateProduction.py
 
-6. **Download satellite images and classify**:
+7. **Download satellite images and classify**:
 python datdownload.py
 
 
